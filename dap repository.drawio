@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T07:27:13.835Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" version="21.3.7" etag="fUd_Bzl-b_dh3KTkjJ6f" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-06T09:46:47.370Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="b4kdrS-qGYIzUoDICXZ6" version="21.3.7" type="github">
   <diagram name="第 1 页" id="J6eBbJ3b3tzSUYA_pBVK">
-    <mxGraphModel>
+    <mxGraphModel dx="2115" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-1" value="public" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-2" value="B类" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-3" value="A类" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-4" value="&lt;p style=&quot;line-height: 140%;&quot;&gt;自研/基于upsteam研发组件或应用&lt;br&gt;例如dingtao、plasma、agent-manager&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;普通用户部分可见&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="199" y="275" width="261" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-5" value="&lt;p style=&quot;line-height: 140%;&quot;&gt;镜像编译组件&lt;br&gt;例如acl、xorg、glibc&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;普通用户不可见&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="385" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-8" value="&lt;p style=&quot;line-height: 140%;&quot;&gt;第三方应用&lt;br style=&quot;font-size: 12px;&quot;&gt;例如飞书、pycharm等&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#ff3333&quot;&gt;普通用户可见&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="201" y="180" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-12" value="personal" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-13" value="organization" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="610" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-14" value="&lt;p style=&quot;line-height: 140%;&quot;&gt;个人&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;可见不可见由个人定义&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="199" y="525" width="261" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-15" value="&lt;p style=&quot;line-height: 140%;&quot;&gt;商业组织，还可再细分....&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;可见性由组织管理&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="635" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="545" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-19" value="internal" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="330" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-21" value="private" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="585" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="66" y="190" as="sourcePoint" />
+            <mxPoint x="116" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dy_VesNP6pDX91N_DXBf-22" value="public" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
