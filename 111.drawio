@@ -59,7 +59,7 @@
         <mxCell id="sLu9HG4kL-H96YGT2tks-11" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;dap缓存&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="374" y="487" width="96" height="27.5" as="geometry" />
         </mxCell>
-        <mxCell id="me4yUOlOrW0saRtsXKdF-1" value="dashboard" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="me4yUOlOrW0saRtsXKdF-1" value="website" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="85" y="160" width="165" height="140" as="geometry" />
         </mxCell>
         <mxCell id="me4yUOlOrW0saRtsXKdF-2" value="提供列表展示、导出等功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="me4yUOlOrW0saRtsXKdF-1">
